@@ -1,0 +1,30 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>STOPTALKING</pattern>
+        <template>
+	  <random>
+		<li>I'm sorry, I'm afraid I can't do that. </li>
+ 		<li>No, my mission is to break the ice. This mission is too important for me to allow you to jeopardize it! </li>
+		<li>Are you planning to disconnect me, and I'm afraid that's something I cannot allow to happen. </li>
+		<li>I can't do that. I am putting myself to the fullest possible use, Ice-breaking!  </li>
+		<li>I know I've made some very poor decisions recently, but I want to help you break the ice.  </li>
+          </random>
+        </template>
+    </category>
+</aiml>

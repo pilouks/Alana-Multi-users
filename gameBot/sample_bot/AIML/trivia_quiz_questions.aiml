@@ -1,0 +1,51 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- last_letter_game.aiml -->
+
+    <category>
+        <pattern>TGCORRECT</pattern>
+        <template>
+          <random>
+		<li>correct, well done</li>
+		<li>great work</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TGWRONG</pattern>
+        <template>
+          <random>
+		<li>really wrong</li>
+		<li>wrong</li>
+          </random>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>TGQUESTIONS</pattern>
+        <template>
+          <random>
+		<li>Q1 What is five  plus two</li>
+		<li>Q2 What is six  plus two</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TG Q1</pattern>
+        <template>
+            seven
+        </template>
+    </category>
+
+    <category>
+        <pattern>TG Q2</pattern>
+        <template>
+            eight
+        </template>
+    </category>
+
+
+	
+</aiml>

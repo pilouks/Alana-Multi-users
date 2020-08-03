@@ -1,0 +1,64 @@
+2020-02-28 17:20:25,268 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 17:20:28,795 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 17:31:53,779 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 17:31:57,323 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 17:54:53,294 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 17:54:56,760 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 17:59:04,617 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 17:59:08,849 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 18:01:19,640 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 18:01:23,418 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 18:04:17,513 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 18:04:21,293 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 18:11:21,756 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 18:11:24,954 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 18:34:14,662 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 18:34:18,060 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 19:01:54,493 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 19:01:58,305 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 19:10:46,288 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 19:10:49,580 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 19:10:52,442 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "/home/sam/anaconda3/envs/Alana/lib/python3.6/site-packages/sanic/server.py", line 860, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1456, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1727, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2020-02-28 19:11:11,122 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 19:11:14,544 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 19:11:17,752 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "/home/sam/anaconda3/envs/Alana/lib/python3.6/site-packages/sanic/server.py", line 860, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1456, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1727, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2020-02-28 19:11:41,482 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 19:11:44,693 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 19:11:47,660 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "/home/sam/anaconda3/envs/Alana/lib/python3.6/site-packages/sanic/server.py", line 860, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1456, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1727, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2020-02-28 19:12:29,420 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 19:12:32,719 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-28 19:12:35,549 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "/home/sam/anaconda3/envs/Alana/lib/python3.6/site-packages/sanic/server.py", line 860, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1456, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1727, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2020-02-28 19:16:58,196 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-28 19:17:04,163 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-29 19:06:29,533 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-29 19:06:36,303 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-29 19:28:19,619 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-29 19:28:25,723 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-29 19:34:53,162 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-29 19:34:59,606 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-02-29 20:32:28,742 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-29 20:32:34,358 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]

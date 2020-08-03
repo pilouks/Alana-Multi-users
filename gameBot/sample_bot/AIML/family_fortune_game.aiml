@@ -1,0 +1,55 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- last_letter_game.aiml -->
+
+    <category>
+        <pattern>FFGASKQUESTION *</pattern>
+        <template>
+          <random>
+		<li>I asked one hundred people to <star/> what do you think they said? </li>
+		<li>I asked a bunch of people to <star/> what was the most common answer?</li>
+		<li>Here is a tricky one, I asked one hundred people to <star/> what was the most common answer? </li>
+		<li>I asked a number of people to <star/> what was the most common answer?</li>
+		<li>I asked a number of people to <star/> what do you think they said?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FFGEXPLAIN</pattern>
+        <template>
+          I have asked one hundred people a question and you need to guess what the most common answers they gave are.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* FFGCORRECT *</pattern>
+        <template>
+          <random>
+		<li>great, <star index = "1"/> was the <star index = "2"/> most common answer given. </li>
+		<li>good guess, <star index = "1"/> was the <star index = "2"/> most common answer given. </li>
+		<li>yes <star index = "1"/> was one of the most common answers given, comming in <star index = "2"/> </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FFGDOYOUWANTTOPLAY</pattern>
+        <template>
+          so, do you want to play the game?
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>FFGCONTINUE</pattern>
+        <template>
+          <random>
+		<li>do you want to play another round?</li>
+		<li>do you want to have another go?</li>
+          </random>
+        </template>
+    </category>
+    
+    
+	
+</aiml>

@@ -1,0 +1,116 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- last_letter_game.aiml -->
+
+    <category>
+        <pattern>LLGMYWORDIS *</pattern>
+        <template>
+          <random>
+		<li>Great, how about <star/> </li>
+		<li>Well done, now my word <star/> </li>
+		<li>tricky one, how about <star/> </li>
+		<li>my turn <star/> </li>
+		<li>you are good at this, here is a tricky one <star/> </li>
+		<li>my word is <star/> </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LLGEXPLAINGAME</pattern>
+        <template>
+          <random>
+		<li>I say a word, then you have to say a word starting with the letter that my word ended in. For example if I say Tree you must say a word starting with E. Do you understand? </li>
+		<li>we take it in turns to say a word, each word must start with the letter that the last word ended with. Do you understand? </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LLGGAMENAME</pattern>
+        <template>
+          <random>
+		<li>This is the Last Letter Game. </li>
+		<li>This game is called the Last Letter Game. </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LLGDIDNOTGETTHAT</pattern>
+        <template>
+          <random>
+		<li>I'm sorry I did not get that </li>
+		<li>what was that? </li>
+		<li>say that again? </li>
+		<li>can you repeat that? </li>
+          </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>LLGLASTWORDWAS *</pattern>
+        <template>
+          <random>
+		<li>The last word was <star/> </li>
+		<li>I think the last word was <star/> </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LLGYOUWIN *</pattern>
+        <template>
+          <random>
+		<li>I can't think of any more words beginning with <star/>. You win!</li>
+          </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* LLGWRONGANSWER *</pattern>
+        <template>
+          <random>
+		<li><star index = "2"/> does not start with the letter <star index = "1"/>. </li>
+		<li>You're word must start with the letter <star index = "1"/>. </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LLGCONFIRMANSWER *</pattern>
+        <template>
+          <random>
+		<li>Is <star/> your final answer? </li>
+		<li>Your going with <star/> </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LLGNOTFINALWORD *</pattern>
+        <template>
+          <random>
+		<li>OK, keep going</li>
+		<li>let me know when you get a word ending in <star/> </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LLGTRYAGAIN</pattern>
+        <template>
+          <random>
+		<li>Have another try </li>
+		<li>try again </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LLGSTART *</pattern>
+        <template>
+		I will start us off. The starting word is <star/>
+        </template>
+    </category>
+	
+</aiml>
